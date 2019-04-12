@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo Gallery Bootstrap</title>
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+ 	<style type="text/css">
+  	body{
+  		padding-top: 70px;
+  	}
+  	.navbar-go{
+  		color: white;
+  		background-color: black;
+  	}
+  	.navbar-go .navbar-brand, .navbar-go a{
+      color:white;
+    }
+    .navbar-go .navbar-nav>li>a {
+      color: white;
+    }
+    .thumbnail{
+    	height: 500px; 
+    }
+    #photo{
+    	height: 490px;
+    }
+    .jumbotron{
+    	height: 200px;
+    	padding-top: 30px; 
+    }
+
+	</style>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-go navbar-fixed-top ">
+		<div class="container">
+			<div class="navbar-header">
+			  	<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+			    	<span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			  	</button>
+
+			  	<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-picture"></span>   Photo Gallery</a>
+
+			</div>
+			 <div class="collapse navbar-collapse" id="bs-nav-demo">
+				<ul class="nav navbar-nav">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				    <li>
+				        <a href="#">Sign Up</a>
+				    </li>
+
+				    <li>
+				        <a href="#">Login</a>
+				    </li>
+				</ul>
+
+			</div>
+			  
+		</div>
+
+	</nav>
+
+
+	<div class="container">
+		<div class="jumbotron">
+			<h2><img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.wallpapersafari.com%2F6%2F23%2FIZWO7e.png&f=1" width="60" height="60" alt="">  The Image Gallery</h2>
+			<p></p>
+			<p>"Wubbalubbadubdub!" “Shut the fuck up, Morty”</p>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img id="photo" src="https://i.pinimg.com/564x/3c/b9/10/3cb9101e5b800e951c1c075764249b45.jpg">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img id="photo" src="https://i.pinimg.com/564x/6a/34/d9/6a34d93b9827cd4fcc8977c0ea8e17ef.jpg">
+				</div>	
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img id="photo" src="https://i.pinimg.com/564x/d0/9a/8c/d09a8ce0ec6a43c2632181c4e8ddd081.jpg?b=t">
+				</div>
+			</div>			
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img id="photo" src="https://i.pinimg.com/564x/32/50/35/32503545a2618e2976cb3d07810a4c89.jpg?b=t">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img id="photo" src="https://i.pinimg.com/564x/a7/27/d7/a727d740d543d672ce0e176005e5ae6c.jpg?b=t">
+				</div>	
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img id="photo" src="https://i.pinimg.com/564x/c8/e7/a0/c8e7a0b0e6db34885290bc673fc9e1ed.jpg">
+				</div>
+			</div>	
+		</div>
+	<div class="row">
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img id="photo" src="https://i.pinimg.com/564x/a5/a3/b8/a5a3b86ba7fe5f0d2c85784ca4f7e399.jpg?b=t">
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img id="photo" src="https://i.pinimg.com/564x/21/b4/ae/21b4aef2fd9a0d6334f103f87d698ee1.jpg">
+			</div>	
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img id="photo" src="https://i.pinimg.com/564x/4e/78/7d/4e787d97a492323e65eee6f06147c597.jpg?b=t">
+			</div>
+		</div>	
+	</div>
+	</div>
+
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
